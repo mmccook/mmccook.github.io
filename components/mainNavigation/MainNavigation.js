@@ -28,9 +28,6 @@ const Header = (props) => {
                     <MainNavigationItem href="/about">
                         <a>About</a>
                     </MainNavigationItem>
-                    <MainNavigationItem href="/projects">
-                        <a>Projects</a>
-                    </MainNavigationItem>
                 </div>
             </div>
             <div className="-mr-2 flex items-center sm:hidden">                
@@ -53,9 +50,6 @@ const Header = (props) => {
                 </MobileMainNavigationItem>
                 <MobileMainNavigationItem href="/about">
                     <a>About</a>
-                </MobileMainNavigationItem>
-                <MobileMainNavigationItem href="/projects">
-                    <a>Projects</a>
                 </MobileMainNavigationItem>
             </div>
         </div>
