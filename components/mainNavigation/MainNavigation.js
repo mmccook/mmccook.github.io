@@ -10,7 +10,6 @@ const Header = (props) => {
   const router = useRouter();
   const [isMobileMenuOpen, MobileMenuOpen] = useToggle();
   useEffect(()=>{
-      console.log(isMobileMenuOpen);
       if(isMobileMenuOpen){
           window.addEventListener("click", MobileMenuOpen);
       }else{
